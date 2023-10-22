@@ -1,0 +1,16 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "node-fetch": "^3.3.2",
+    "yaml": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/md5": "^2.3.4",
+    "@types/node-fetch": "^2.6.7"
+  }
+}
