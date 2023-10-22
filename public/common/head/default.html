@@ -22,10 +22,10 @@
     <img class="genshin_logo" src="{{pluResPath}}img/other/原神.png" alt="" />
   </div>
   {{block 'main'}}{{/block}}
+  {{if msg}}
+  <div class="bottom-msg">{{msg}}</div>
+  {{/if}}
+  <div class="logo">Created By {{Plugin}}</div>
 </div>
-{{if msg}}
-<div class="bottom-msg">{{msg}}</div>
-{{/if}}
-<div class="logo">Created By Yunzai-Bot</div>
 </body>
 </html>

@@ -16,6 +16,7 @@ export async function screen(
     ...data,
     pluResPath: `${path}/public`,
     pluResName: name,
+    Plugin: 'Genshin',
     defaultLayout: `${DirPath}/public/common/head/default.html`,
     headIndexStyle: `<style> .head_box { background: #f5f5f5 url(${path}/public/img/roleIndex/namecard/${_.random(
       1,

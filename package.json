@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
+    "less": "^4.2.0",
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
     "node-fetch": "^3.3.2",
